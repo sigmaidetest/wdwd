@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "wdwd/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    console.log(\"yeew\");\n    callback(null, {\"message\": \"Hello executed\"});\n}",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    console.log(\"yeew\");\n    callback(null, {\"message\": \"Hello\"});\n}",
         "triggers": [],
         "config": {
           "runtime": "nodejs8.10",
@@ -65,7 +65,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1554098396416
+    "lastSave": 1554098419502
   },
   "VCS_STATE": {
     "provider": "GitHub",
